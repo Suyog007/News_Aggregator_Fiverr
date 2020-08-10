@@ -44,6 +44,7 @@ for one in link_list[:-1]:
         dict1['url'] = one
         dict1['county'] = 'Djibouti'
         dict1['language'] ='fr'
+        print(dict1)
         x = mycol.insert_one(dict1)
 
     except:
